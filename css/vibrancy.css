@@ -225,4 +225,21 @@ html.full-vibrancy ._5irm._7mkm {
 html.full-vibrancy ._7mkk._7t1o._7t0j {
 	display: none;
 }
+
+/* Reminder header */
+html.full-vibrancy ._3nta {
+	background-color: #f1f0f0 !important;
+}
+
+/* Reminder message */
+html.full-vibrancy ._3wb1 {
+	background-color: #f1f0f0 !important;
+	border-color: transparent !important;
+}
+
+/* Reminder calendar icon */
+html.full-vibrancy ._3way {
+	border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
 /* -- BLOCK END: full-window vibrancy -- */

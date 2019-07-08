@@ -886,3 +886,20 @@ html.dark-mode ._7mkk._7t1o._7t0e {
 html.dark-mode ._74ku {
 	color: var(--base-fifty);
 }
+
+
+/* Reminder header */
+html.dark-mode ._3nta {
+	background-color: #323232 !important;
+}
+
+/* Reminder message */
+html.dark-mode ._3wb1 {
+	background-color: #323232 !important;
+	border-color: transparent !important;
+}
+
+/* Reminder calendar icon */
+html.dark-mode ._3way {
+	border-color: rgba(0, 0, 0, 0.1) !important;
+}
