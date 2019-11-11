@@ -20,7 +20,7 @@
 		"test": "npm run lint",
 		"start": "tsc && electron .",
 		"pack": "tsc && electron-builder --dir",
-		"dist": "tsc && electron-builder --macos --linux --windows",
+		"dist": "tsc && electron-builder --macos --linux --windows --config.snap.publish=github",
 		"release": "np && npm run publish-snap",
 		"publish-snap": "del dist && tsc && electron-builder --linux && snapcraft push --release=stable dist/*.snap"
 	},
@@ -50,7 +50,7 @@
 		"@typescript-eslint/parser": "^2.6.1",
 		"del-cli": "^3.0.0",
 		"electron": "^7.1.1",
-		"electron-builder": "^22.1.0",
+		"electron-builder": "22.0.0",
 		"eslint-config-xo-typescript": "^0.21.0",
 		"husky": "^3.0.9",
 		"np": "^5.1.3",
